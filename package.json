@@ -1,0 +1,13 @@
+{
+  "name": "coursetest-playwright",
+  "version": "1.0.0",
+  "description": "Playwright tests for e-commerce auth flow and file upload",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
